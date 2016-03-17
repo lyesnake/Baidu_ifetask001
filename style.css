@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4，nav{
+body,h1,h2,h3,h4,nav{
     padding: 0;
     margin: 0;
 }
@@ -144,6 +144,139 @@ nav{
     color: grey;
     padding-top: 10px;
 }
+
+
+ol li{
+  font-size: 15px;
+   padding-bottom: 2px;
+}
+
+
+.tabletext{
+    position: relative;
+    font-size: 15px;
+    top: 30px;
+    left: 20px;
+
+}
+
+
+
+table{
+
+    margin: 30px 20px 20px 20px;
+}
+
+
+.table_a {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.table_a td,th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+
+.astitle{
+    height: 40px;
+    line-height: 40px;
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+}
+
+
+.mess{
+    position: relative;
+    left:30%;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+
+.mess_a{
+    position: relative;
+    left: 10%;
+    font-size: 14px;
+    color: #ccc;
+
+}
+
+.mess_b{
+    position: relative;
+    left: -2.4%;
+
+}
+
+.mess_c{
+    position: relative;
+    left: 8%;
+    font-size: 14px;
+    color: #ccc;
+
+}
+
+.mess_d{
+    font-size: 12px;
+}
+
+.man{
+  font-size: 12px;
+}
+
+.sex{
+    padding-bottom: 10px;
+}
+
+.mess_e{
+    position: relative;
+    top: -105px;
+    font-size: 12px;
+}
+.tta{
+    width: 500px;
+    height: 120px;
+}
+
+.button{
+    position: relative;
+    left: 12%;
+    width: 80%;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
