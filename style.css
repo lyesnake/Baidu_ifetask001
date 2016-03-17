@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,nav{
+body,h1,h2,h3,h4,nav,p,img,ul{
     padding: 0;
     margin: 0;
 }
@@ -12,43 +12,73 @@ body{
 
 header{
 
-    width: 100%;
-    height: 70px;
+
+    height: 60px;
     background-color: gray;
 }
 
-nav{
-    display: inline;
-    height: 70px;
-    line-height: 40px;
-}
-.logo{
-    float: right;
-}
-.logo li{
-    float: left;
+/*头部导航部分开始*/
+header img{
     width: 100px;
+    /*padding: 0 0 10px 10px ;*/
+    padding: 15px 0 15px 40px ;
+
+}
+nav{
+    /*display: inline;*/
+    /*height: 70px;*/
+    /*line-height: 40px;*/
+    float: right;
+
 }
 
-.art_one{
+nav ul li{
+    float: left;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-size:12px ;
+}
+/*.logo{*/
+    /*float: right;*/
+/*}*/
+/*.logo li{*/
+    /*float: left;*/
+    /*width: 100px;*/
+/*}*/
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+nav ul li :hover{
+    color: #ccc;
+}
+
+/*导航部分结束*/
+
+
+/*正文部分*/
+article,aside{
     margin: 20px 25px;
     background-color: #fff;
 
     border-width: 1px 3px 3px 1px;
     border-color: gray;
     border-style: solid;
+    padding: 30px;
 }
 
 
-.text_one{
-    margin: 30px 20px 20px 20px;
-}
 
-.text_one h2{
+
+article h2{
     font-size: 20px;
 }
 
-.text_one h3{
+article h3{
     font-size: 16px;
     color: grey;
     padding-top: 10px;
@@ -59,96 +89,46 @@ nav{
     color: grey;
 }
 
-.word {
+p {
     font-size: 15px;
 }
 
 
-.art_two{
-    margin: 20px 25px;
-    background-color: #fff;
 
-    border-width: 1px 3px 3px 1px;
-    border-color: gray;
-    border-style: solid;
-}
-.text_two{
-    margin: 30px 20px 20px 20px;
-}
 
-.text_two h2{
-    font-size: 20px;
-}
 
-.text_two h3{
-    font-size: 16px;
-    color: grey;
+
+
+article ul{
     padding-top: 10px;
-}
-
-
-.art_two ul{
     padding-bottom: 20px;
 }
-.art_two ul li{
+article ul li{
     list-style: none;
     font-size: 15px;
     padding-bottom: 3px;
 
 }
 
-.art_three{
-    margin: 20px 25px;
-    background-color: #fff;
+figure{
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #ccc;
 
-    border-width: 1px 3px 3px 1px;
-    border-color: gray;
-    border-style: solid;
-    padding-bottom: 20px;
-}
-.addbox{
-    border: 1px solid grey;
-    width: 300px;
-    height: 250px;
-    margin-left: 70px;
-    margin-bottom: 20px;
 }
 
-
-.addbox figcaption{
+figcaption{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.art_three h2{
-    margin: 30px ;
+figure img{
+    width: 100%;
 }
-
-
-.art_fore{
-    margin: 20px 25px;
-    background-color: #fff;
-
-    border-width: 1px 3px 3px 1px;
-    border-color: gray;
-    border-style: solid;
-}
-
-
-.text_fore h2{
-    font-size: 20px;
-}
-
-.text_fore h3{
-    font-size: 16px;
-    color: grey;
-    padding-top: 10px;
-}
-
-
 ol li{
   font-size: 15px;
    padding-bottom: 2px;
+    font-weight: 600;
 }
 
 
@@ -194,51 +174,71 @@ table{
     font-size: 14px;
 }
 
-
 .mess_a{
-    position: relative;
-    left: 10%;
-    font-size: 14px;
-    color: #ccc;
+    padding-bottom: 20px;
+}
+.mess_a label{
+    font-size: 13px;
 
+}
+.mess_a span{
+    font-size: 12px;
+    color: darkgray;
+    padding-left: 9.5%;
 }
 
 .mess_b{
-    position: relative;
-    left: -2.4%;
+    margin-left: 26px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+.mess_c{
+    /*margin-left: 0px;*/
+    font-size: 13px;
 
 }
 
-.mess_c{
-    position: relative;
-    left: 8%;
-    font-size: 14px;
-    color: #ccc;
+
+.mess_c span{
+    display: inline-block;
+    font-size: 12px;
+    color: darkgray;
+    padding-left: 9.5%;
+    padding-bottom: 10px;
 
 }
 
 .mess_d{
-    font-size: 12px;
+    padding-left: 2.9%;
+    font-size: 13px;
+    padding-bottom: 10px;
+
 }
 
-.man{
-  font-size: 12px;
+
+
+.sel{
+    padding-left: 6%;
+    font-size: 13px;
+    padding-bottom: 10px;
+
 }
 
-.sex{
+.hob{
+    padding-left: 3%;
     padding-bottom: 10px;
 }
 
-.mess_e{
-    position: relative;
-    top: -105px;
-    font-size: 12px;
-}
 .tta{
-    width: 500px;
-    height: 120px;
-}
+    width: 400px;
+    height: 200px;
 
+}
+.mess_f{
+    margin-left: 4%;
+}
 .button{
     position: relative;
     left: 12%;
