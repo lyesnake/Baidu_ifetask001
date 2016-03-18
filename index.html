@@ -122,7 +122,7 @@
 				  <li>排名3</li>
 			  </ol>
 		      <p class="tabletext">下面是一个表格，给表格加一个border＝“1”好让你看出来是一个表格</p>
-		      <table class="table_a" width="98%" cellpadding="0" cellspacing="0">
+		      <table   border="1">
 				  <thead>
 				     <tr>
 					    <th bgcolor="#faebd7">表头</th>
@@ -171,48 +171,58 @@
 
 		       <h2 class="astitle">这以后是一个侧栏，这是侧栏的标题</h2>
 		       <!--<h3>侧栏注册窗口标题</h3>-->
-		       <form action="" method="" class="mess">
-				   <div class="mess_a">
-				        <label for="add"  >请输入邮箱地址：</label>
-				        <input type="email" placeholder="这是一个文本输入框" id="add" pattern="^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(_[a-zA-Z]){2,4}$"><br>
-					    <span class="mess_a">邮箱地址请安要求格式来写</span><br>
-				   </div>
-				   <div class="mess_b">
-				      <label for="psd">请输入密码：</label>
-				      <input type="password" placeholder="这是一个文本输入框" id="psd" pattern="^[a-zA-Z0-9]{6,16}$"><br>
-				   </div>
-				   <div class="mess_c">
-				       <label for="again" >请重复输入密码：</label>
-				       <input type="password" placeholder="这是一个文本输入框" id="again" pattern="^[a-zA-Z0-9]{6,16}$"><br>
-					   <span class="mess_c">密码请为6-16个英文数字</span>
-				   </div>
+		       <form action="" method="" >
+				   <div >
+				        <label for="add"  class="mess_title">请输入邮箱地址：</label>
+				        <input type="email" placeholder="这是一个文本输入框" id="add" pattern="^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(_[a-zA-Z]){2,4}$">
 
-                  <div class="mess_d">
-				       <span class="mess_d">性别:</span> <input type="radio" name="boy" id="meal">
+				   </div>
+				   <div class="mess_tip">邮箱地址请安要求格式来写</div>
+				   <div >
+				      <label for="psd" class="mess_title">请输入密码：</label>
+				      <input type="password" placeholder="这是一个文本输入框" id="psd" pattern="^[a-zA-Z0-9]{6,16}$">
+				   </div>
+				   <div >
+				       <label for="again"  class="mess_title">请重复输入密码：</label>
+				       <input type="password" placeholder="这是一个文本输入框" id="again" pattern="^[a-zA-Z0-9]{6,16}$">
+
+				   </div>
+				   <div class="mess_tip">密码请为6-16个英文数字</div>
+
+                   <div >
+				       <span class="mess_title">性别:</span>
+					   <input type="radio" name="boy" id="meal">
 				       <label for="meal" class="man" >男</label>
 				       <input type="radio" name="boy"  id="formeal">
 				       <label for="formeal"  class="man">女</label>
 				  </div>
-				   <div class="sel">
-				          <span class="mess_e">城市:</span>
+				   <div >
+				          <span class="mess_title">城市:</span>
 					         <select name="city">
 					          <option value="1" >上海</option>
 					           <option value="2">北京</option>
 					           <option value="3">成都</option>
 				            </select>
 				   </div>
-				   <div class="hob">
-				          <span class="mess_d">爱好:</span>
+				   <div >
+				          <span class="mess_title">爱好:</span>
 				          <label class="man"><input type="checkbox" value="sport" >运动</label>
 				          <label class="man"> <input type="checkbox" value="art">艺术</label>
 				          <label class="man"> <input type="checkbox" value="scientist">科学家&nbsp;</label><br>
 				   </div>
-				   <label class="mess_f"><span >个人描述:</span><textarea rows="2" cols="20"  class="tta">这是一个多行输入框，输入你的描述</textarea></label><br>
+				   <div >
+
+					       <span  class="mess_title">个人描述:</span>
+					       <textarea rows="10" cols="50"  >这是一个多行输入框，输入你的描述</textarea>
 
 
+				   </div>
+				   <div >
+					   <button type="submit">确认提交</button>
+				   </div>
 			     </form>
 
-				  <div class="button">确认提交</div>
+
 			   </aside>
 
 	 <footer>

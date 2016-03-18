@@ -63,12 +63,17 @@ nav ul li :hover{
 /*正文部分*/
 article,aside{
     margin: 20px 25px;
+    padding: 30px;
     background-color: #fff;
 
-    border-width: 1px 3px 3px 1px;
-    border-color: gray;
-    border-style: solid;
-    padding: 30px;
+    /*border-width: 1px 3px 3px 1px;*/
+    /*border-color: gray;*/
+    /*border-style: solid;*/
+    /*也可以用box-shadow属性来写*/
+    box-shadow: 2px 2px 3px #7b7b7b;
+
+
+
 }
 
 
@@ -92,12 +97,6 @@ article h3{
 p {
     font-size: 15px;
 }
-
-
-
-
-
-
 
 article ul{
     padding-top: 10px;
@@ -132,33 +131,29 @@ ol li{
 }
 
 
-.tabletext{
-    position: relative;
-    font-size: 15px;
-    top: 30px;
-    left: 20px;
 
-}
+/*.table_a {*/
+    /*border-right: 1px solid #ccc;*/
+    /*border-bottom: 1px solid #ccc;*/
+/*}*/
 
+/*.table_a td,th {*/
+    /*border-left: 1px solid #ccc;*/
+    /*border-top: 1px solid #ccc;*/
+/*}*/
 
+/*以上代码可以直接用border-collspace属性做到合并表格边框*/
 
 table{
-
-    margin: 30px 20px 20px 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
 }
 
-
-.table_a {
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+th,td{
+    border: 1px solid #ccc;
+    font-size: 15px;
 }
-
-.table_a td,th {
-    border-left: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-}
-
-
 .astitle{
     height: 40px;
     line-height: 40px;
@@ -166,83 +161,29 @@ table{
     padding-left: 10px;
 }
 
-
-.mess{
-    position: relative;
-    left:30%;
-    padding-top: 20px;
-    font-size: 14px;
+aside form >div{
+    margin: 10px 0;
 }
-
-.mess_a{
-    padding-bottom: 20px;
-}
-.mess_a label{
-    font-size: 13px;
-
-}
-.mess_a span{
-    font-size: 12px;
-    color: darkgray;
-    padding-left: 9.5%;
-}
-
-.mess_b{
-    margin-left: 26px;
-    font-size: 13px;
-    margin-bottom: 10px;
-}
-
-
-.mess_c{
-    /*margin-left: 0px;*/
-    font-size: 13px;
-
-}
-
-
-.mess_c span{
+.mess_title{
+    width: 30%;
     display: inline-block;
-    font-size: 12px;
-    color: darkgray;
-    padding-left: 9.5%;
-    padding-bottom: 10px;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
 
 }
 
-.mess_d{
-    padding-left: 2.9%;
+.mess_tip{
+    margin-left: 30%;
+    padding-left: 10px;
     font-size: 13px;
-    padding-bottom: 10px;
+    color: #ccc;
 
 }
+aside button{
 
-
-
-.sel{
-    padding-left: 6%;
-    font-size: 13px;
-    padding-bottom: 10px;
-
-}
-
-.hob{
-    padding-left: 3%;
-    padding-bottom: 10px;
-}
-
-.tta{
-    width: 400px;
-    height: 200px;
-
-}
-.mess_f{
-    margin-left: 4%;
-}
-.button{
-    position: relative;
     left: 12%;
-    width: 80%;
+    width: 100%;
     height: 45px;
     line-height: 45px;
     margin-top: 30px;
@@ -250,6 +191,8 @@ table{
     background-color: aquamarine;
     text-align: center;
     border-radius: 10px;
+    border: 0 none;
+    /*outline: medium none;*/
 
 }
 
