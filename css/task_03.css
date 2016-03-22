@@ -11,7 +11,7 @@ div,p,h1{
     overflow: hidden;
     border: 1px #999 solid;
     background-color: #eee;
-    min-height: 540px;
+    min-height: 530px;
     padding: 20px;
 
 }
@@ -68,10 +68,10 @@ div,p,h1{
 /*右边部分开始*/
 .a_right{
     position: absolute;
-    top: 0px;
+    top: 20px;
     right: 20px;
 
-    margin-top: 20px;
+
     border: 1px solid #999;
     background-color: white;
 
@@ -82,8 +82,9 @@ div,p,h1{
 
     width: 80px;
     height: 80px;
-    margin: 20px;
+    margin: 20px ;
     border: 1px solid #999;
+    background-color: #eee;
 
 }
 /*右边部分结束*/
