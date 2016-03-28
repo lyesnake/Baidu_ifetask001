@@ -1,0 +1,469 @@
+body,div,p{
+    padding: 0;
+    margin: 0;
+}
+
+.newspaper{
+    width: 980px;
+    height: 1386px;
+    margin: 0 auto;
+    border-bottom: 1px solid red;
+}
+/*头部开始*/
+header{
+    position: relative;
+    width: 892px;
+    height: 61px;
+    background: url("../img/top_left.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-bottom: 2px solid #938e8c;
+    overflow: hidden;
+
+}
+
+header time{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: #d45d5c;
+}
+
+header span{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+/*头部结束*/
+
+
+/*中间部分*/
+.pic{
+
+    position: relative;
+    width: 641px;
+    height: 301px;
+    background: url("../img/computer.png");
+    background-repeat: no-repeat;
+    margin: 40px;
+    clear: both;
+
+}
+
+/*右边部分*/
+.pic_float_left{
+    position: absolute;
+    width: 191px;
+    height: 301px;
+    background: url("../img/green.png");
+    background-repeat: no-repeat;
+
+}
+
+.pic_float_right{
+    position: absolute;
+    width: 191px;
+    height: 301px;
+    right: 0;
+    background: url("../img/pink.png");
+    background-repeat: no-repeat;
+}
+
+main{
+    position: relative;
+}
+
+/*左边部分*/
+aside{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    width: 203px;
+    height: 301px;
+    border-top: 2px solid #d45d5c;
+    padding-top: 10px;
+    /*overflow: hidden;*/
+    clear: both;
+
+}
+
+aside :nth-child(1){
+
+    text-decoration:underline ;
+    line-height: 40px;
+}
+aside  p:nth-child(1) span {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+
+}
+
+aside :nth-child(2){
+    text-decoration: underline;
+}
+aside p:nth-child(2) span{
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+aside :nth-child(3){
+    font-size: 12px;
+    color: #676767;
+
+    line-height: 10px;
+}
+
+
+aside :nth-child(4){
+    font-size: 116px;
+    color: #75b86b;
+    font-style: italic;
+}
+
+aside :nth-child(5){
+    font:55px  微软雅黑;
+    color: #cc8091;
+}
+
+aside ul{
+    position: relative;
+    top: -70px;
+    left: 40px;
+}
+aside ul li{
+          list-style: none;
+          line-height: 0;
+
+
+}
+
+aside ul li:nth-child(1){
+    text-decoration: none;
+    font: 21px 微软雅黑;
+    color: #cc8091;
+}
+aside ul li:nth-child(2){
+    text-decoration: none;
+    font: 12px 微软雅黑;
+    color: #ccc;
+}
+/*中间部分结束*/
+
+/*段落部分开始*/
+.art{
+    width: 641px;
+    margin: 40px;
+}
+
+.art div:nth-child(1){
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.art div:nth-child(1) h2{
+    font: bold 16px 微软雅黑;
+    color: #418c59;
+    text-decoration: underline;
+
+}
+
+.art  div:nth-child(1) p{
+    font: 12px 宋体;
+    color: #767777;
+    line-height: 16px;
+}
+.art div:nth-child(2){
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.art div:nth-child(2) h2{
+    font: bold 16px 微软雅黑;
+    color: #d2994f;
+    text-decoration: underline;
+
+}
+
+
+.art  div:nth-child(2) p{
+    font: 12px 宋体;
+    color: #767777;
+    line-height: 16px;
+}
+.art div:nth-child(3){
+
+    display: inline-block;
+    width: 25%;
+}
+
+.art div:nth-child(3) h2{
+    font: bold 16px 微软雅黑;
+    color: #cc7680;
+    text-decoration: underline;
+
+}
+
+.qianduan{
+    font: 12px 宋体;
+    color: #767777;
+    line-height: 16px;
+    margin-bottom: 30px;
+
+}
+
+
+.list_num{
+    font: 12px 微软雅黑;
+    color: #231815;
+    line-height: 16px;
+    filter:alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+
+
+}
+
+.list_num span{
+    font: 12px  微软雅黑;
+    color: #cd4a48;
+    font-style: italic;
+    filter:alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+
+/*段落部分结束*/
+
+/*下面部分开始*/
+.explan{
+    width: 892px;
+    margin: 40px;
+}
+
+.explan_left{
+    display: inline-block;
+    width: 415px;
+
+
+    /*margin-right: px;*/
+}
+
+.explan_right{
+    display: inline-block;
+    width: 458px;
+}
+.title{
+    border-bottom: 2px solid #11456b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.title h2{
+
+    font: 30px 黑体 bold;
+    color: #11456b;
+    line-height: 16px;
+
+}
+.title h2 span{
+
+    font: 72px 黑体 bold;
+    font-style: italic;
+    color: #f5e327;
+}
+
+
+.title p{
+    font: 33px 黑体 bold;
+    color: #11456b;
+}
+
+
+.message p span{
+    font-size:70px;
+    float: left;
+    color: #f5e327;
+
+}
+
+.message p{
+    font: 12px 宋体;
+    color: #767777;
+    line-height: 1.3;
+}
+
+.message p img{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/*下面部分右边开始*/
+
+.explan_right{
+    position: absolute;
+
+    margin-left: 20px;
+    background-color: darkseagreen;
+}
+.hid_pic{
+    position: relative;
+    width: 458px;
+    height: 275px;
+    margin-bottom: 20px;
+}
+
+.hid_pic img:nth-child(1){
+    width: 100%;
+    height: 100%;
+}
+
+.hid_pic_hi{
+    display: block;
+    width: 458px;
+    height: 61px;
+    top: 78%;
+    position: absolute;
+}
+
+.hid_pic p{
+    position: absolute;
+    font: 12px 微软雅黑;
+    color: #72b16a;
+    font-style: italic;
+    top:85%;
+    margin-left: 40px;
+    border-left: 3px solid #72b16a;
+    letter-spacing: 3px;
+
+}
+
+.hid_pic p span{
+    font: 26px 微软雅黑;
+    color: #fff;
+}
+.word{
+    position: relative;
+    width: 459px;
+
+}
+.list_word {
+    display: inline-block;
+
+}
+.list_word p{
+    font: 16px 宋体;
+    line-height: 38px;
+}
+
+.list_word p span{
+   font: 12px 宋体;
+    color: #5a5b5b;
+    font-style: italic;
+}
+
+.red{
+    position: relative;
+    display: inline-block;
+    width: 260px;
+    height: 160px;
+    background-color: crimson;
+    margin-top: 65px;
+    margin-bottom: 30px;
+
+}
+
+
+.red span{
+    font: 110px 微软雅黑;
+    color: #fff;
+    border-right: 2px solid #fff;
+    line-height: 160px;
+    margin-left: 10px;
+}
+
+.red :nth-child(2){
+    position: absolute;
+    right: 40%;
+    top: 30%;
+    font: 21px 黑体;
+    color: #fff;
+    font-style: italic;
+    line-height: 24px;
+
+}
+
+.red :nth-child(3){
+    position: absolute;
+    right: 7%;
+    top: 45%;
+    font: 21px 黑体;
+    color: #fff;
+    line-height: 24px;
+}
+.red :nth-child(4){
+    position: absolute;
+    right: 18%;
+    top: 65%;
+    font: 12px 黑体;
+    color: #fff;
+}
+.yinhao{
+    position: absolute;
+    /*right: 30px;*/
+    /*top: 20px;*/
+    /*bottom: 0;*/
+    /*float: right;*/
+    width: 150px;
+    font: 14px 黑体;
+    color: #d45d5c;
+    bottom: 30px;
+    right: 20px;
+
+}
+/*下面部分右边结束*/
+/*下面部分结束*/
+
+
+
+/*底部开始*/
+footer span {
+
+    float: right;
+    font: 12px 黑体;
+    color: #d45d5c;
+    margin-top: -20px;
+}
+/*底部结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
