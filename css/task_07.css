@@ -403,7 +403,9 @@ figure p{
      margin-top: 55%;
 }
 
-
+.table{
+    overflow: hidden;
+}
 .volunteer{
     font-size: 30px;
     text-align: center;
@@ -433,11 +435,10 @@ figure p{
     width: 295px;
     height: 285px;
     margin-left: 138px;
+    padding-bottom: 169px;
 }
 
-/*.left_1{*/
-    /*position: ;*/
-/*}*/
+
 .new_left h2{
     color: rgb(161,161,161) ;
 }
@@ -472,10 +473,150 @@ table{
 
     height: 355px;
     width: 100%;
-    top: 30px;
+    /*margin-top: 30px;*/
     background-color: rgb(50,53,62);
     clear: both;
 }
+
+.re_vol h2{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding-top: 92px;
+}
+
+.somee{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color:#fff;
+    margin-top: 20px;
+
+}
+
+
+.tijiao{
+    position: relative;
+    width: 510px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #fff;
+    color:rgb(161,161,161)  ;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tijiao span{
+    position: absolute;
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    /*right: 0;*/
+    /*line-height: 41;*/
+    text-align: center;
+    right: 0;
+    background-color: rgb(111,114,120);
+
+}
+
+
+
+.last_img{
+
+    width: 202px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.last_img img{
+    padding: 0 10px;
+}
+
+footer{
+    width: 100%;
+    height: 59px;
+    line-height: 59px;
+    background-color: rgb(47,48,56);
+}
+
+.foot{
+    float: left;
+    color: #fff;
+    left: 30px;
+    margin-left: 30px;
+
+}
+
+.foot_2{
+    float: right;
+    color: #fff;
+    margin-right: 30px;
+
+
+}
+/*表格样式*/
+.buju{
+    margin-bottom: 30px;
+}
+.new_right div{
+
+    background-color:rgb(236,236,238) ;
+}
+
+.div1 {
+    display: inline-block;
+    width: 312px;
+    height: 40px;
+    font-size: 16px;
+
+    line-height: 40px;
+
+}
+
+.div2{
+    display: inline-block;
+    width: 312px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 13px;
+
+}
+.div3{
+    display: inline-block;
+    width: 312px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+
+}
+
+
+.div4{
+    display: inline-block;
+    width: 312px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 13px;
+
+}
+
+.div5{
+    height: 119px;
+    line-height: 119px;
+    margin-top: 20px;
+}
+
+
+.div6{
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
 
 
 
