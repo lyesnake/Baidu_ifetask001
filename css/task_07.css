@@ -1,4 +1,4 @@
-div,p,h2{
+div,p,h2,span,footer,body,ul,li{
     padding: 0;
     margin: 0;
 }
@@ -10,11 +10,7 @@ header{
     height: 60px;
 }
 
-header ul li{
-    list-style: none;
-    float: left;
-    padding: 0 10px;
-}
+
 
 .header_left {
     float: left;
@@ -28,30 +24,45 @@ header ul li{
     float: right;
     font-size: 24px;
 
-    margin-top: -8px;
+    /*margin-top: -8px;*/
 }
 
+.header_left img{
+    position: relative;
+    top: 8px;
+}
 .header_right{
 
     float: right;
+    height: 60px;
     margin-right: 3%;
 
 }
-
+.header_right ul{
+    height: 57px;
+    line-height: 57px;
+}
 .header_right ul li{
-    font-size: 18px;
-    padding-bottom: 10px;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    color: #787B83;
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+
 }
 
+
 .header_right ul :nth-child(1){
-    border-bottom: 4px solid red;
+    border-bottom: 20px solid red;
+    /*text-decoration: underline;*/
 }
 
 .logo{
     width: 70px;
     text-align: center;
     background: url("../image/red_people.png") no-repeat ;
-    background-position: 10px 0;
+    background-position: 13px center;
     color: red;
 
 }
@@ -122,7 +133,9 @@ header ul li{
     margin-left: 85px;
     border-right: 2px solid #ccc;
 }
-
+.beauty p{
+    border-right:  2px solid #fff;
+}
 
 .know{
     height: 360px;
@@ -191,6 +204,7 @@ header ul li{
     color:rgb(161,161,161) ;
     line-height: 35px;
     margin-right: 29px;
+    padding-left: 10px;
 }
 
 .chance_1{
@@ -207,6 +221,7 @@ header ul li{
   }
 .chance_1 span{
     line-height: 35px;
+    padding-left: 10px;
 }
 
 .chance_4{
@@ -224,7 +239,7 @@ header ul li{
     position: absolute;
     width: 236px;
     height: 171px;
-    border: 1px solid rgb(231,79,77);
+
     line-height: 30px;
     background-color: #ccc;
 }
@@ -232,10 +247,32 @@ header ul li{
 .city .Beijing{
     width: 236px;
     height: 25px;
-    background-color:rgb(231,79,77) ;
+    background-color:rgb(190,79,72) ;
+    color: #fff;
+    /*padding-left: 10px;*/
+
+
+}
+
+.Beijing img{
+    position: relative;
+    top: -5px;
+    left: 3px;
+
+
+}
+
+.city .Beijing span{
+    float: right;
+    margin-right: 160px;
+    line-height: 25px;
 }
 .city p{
-    padding-left: 10px;
+    padding-left: 22px;
+}
+
+.city p:hover {
+    background-color:rgb(190,79,72)  ;
 }
 
 .picture{
@@ -261,13 +298,15 @@ figure .Shanghai{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 20px;
+    letter-spacing: 30px;
+    padding-left: 25px;
 
 }
 figure p{
     font-size: 15px;
     text-align: center;
     color:rgb(161,161,161)  ;
+    padding-bottom: 10px;
 }
 
 .pic_left{
@@ -456,11 +495,69 @@ figure p{
     margin-left:76px ;
     margin-right: 108px;
 }
-table{
-    width: 642px;
-    height: 288px;
+
+.new_right input{
+    /*width: 294px;*/
+    /*height: 40px;*/
+    /*background-color: rgb(237,237,238);*/
+    /*border-image-source: initial;*/
+    /*border-image-slice:initial;*/
+    /*border-image-width: initial;*/
+    /*border-image-outset:initial;*/
+    /*border-image-repeat: initial;*/
+    /*margin-bottom: 14px;*/
+    /*padding-left: 17px;*/
+    /*font-family: 宋体;*/
+    /*font-size: 12px;*/
+    /*color: rgb(35,24,21);*/
+    border: none;
+    width: 288px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+    font-family: Simsun;
+    background-color: #EDEDEE;
+    margin-bottom: 15px;
+}
+.div1 {
+    margin-right: 20px;
+}
+
+.div3{
+    margin-right: 20px;
+}
 
 
+
+.new_right input:nth-of-type(5){
+    width: 640px;
+    font-size: 14px;
+}
+
+.new_right textarea{
+    width: 596px;
+    height: 100px;
+    padding: 10px 20px;
+    resize: none;
+    background-color: #EDEDEE;
+    margin-bottom: 15px;
+    border: none;
+
+
+}
+.new_right button{
+    width: 636px;
+    height: 40px;
+    font-size: 14px;
+    color: #AAA;
+    letter-spacing: 3px;
+    border: none;
+    background-color: #EDEDEE;
+
+}
+
+.new_right button:hover{
+    background-color: red;
 }
 .more_bu{
   position: relative;
@@ -495,16 +592,42 @@ table{
 }
 
 
-.tijiao{
+.combun form{
     position: relative;
     width: 510px;
-    height: 41px;
-    line-height: 41px;
-    background-color: #fff;
-    color:rgb(161,161,161)  ;
-    margin: 0 auto;
-    margin-top: 20px;
+    height: 40px;
+    margin: 0px auto;
 }
+
+.combun form input{
+    width: 410px;
+    height: 40px;
+    padding: 0px 10px;
+    border: none;
+}
+
+
+.combun form button{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    background-color: #707278;
+    font-size: 15px;
+    color: #FFF;
+    border: 0;
+    /*padding-bottom: 20px;*/
+}
+.re_vol ul{
+    margin-top: 20px;
+    text-align: center;
+}
+.re_vol ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
 
 .tijiao span{
     position: absolute;
@@ -559,61 +682,12 @@ footer{
 .buju{
     margin-bottom: 30px;
 }
-.new_right div{
-
-    background-color:rgb(236,236,238) ;
-}
-
-.div1 {
-    display: inline-block;
-    width: 312px;
-    height: 40px;
-    font-size: 16px;
-
-    line-height: 40px;
-
-}
-
-.div2{
-    display: inline-block;
-    width: 312px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: 13px;
-
-}
-.div3{
-    display: inline-block;
-    width: 312px;
-    height: 40px;
-    line-height: 40px;
-    margin-top: 20px;
-
-}
 
 
-.div4{
-    display: inline-block;
-    width: 312px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: 13px;
-
-}
-
-.div5{
-    height: 119px;
-    line-height: 119px;
-    margin-top: 20px;
-}
 
 
-.div6{
-    height: 38px;
-    line-height: 38px;
-    text-align: center;
-    margin-top: 20px;
-}
+
+
 
 
 

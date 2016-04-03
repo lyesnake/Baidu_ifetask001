@@ -15,6 +15,7 @@
         </div>
 
         <div class="header_right">
+
             <ul>
                 <li>首页</li>
                 <li>最新活动</li>
@@ -22,7 +23,9 @@
                 <li>爱心社区</li>
                 <li>关于我们</li>
                 <li class="logo">登陆</li>
+                <div style="clear: both"></div>
             </ul>
+
         </div>
 
     </header>
@@ -50,7 +53,7 @@
                     <img src="image/red_flower.png">
                     <p>时光的新理念，超前<br>体验未知生活</p>
                 </div>
-                <div class="buttom_kuai">
+                <div class="buttom_kuai beauty">
                     <img src="image/red_kuai.png">
                     <p>完美的培养机制。培养<br>你全新的世界观</p>
                 </div>
@@ -72,11 +75,12 @@
                  <div class="line"></div>
                  <h3>每个城市都有不同的活动信息，请自主查询您所需要了解的城市</h3>
                  <div class="chance_city">
-                 <div class="chance">中国</div>
+                 <!--<div class="chance">中国</div>-->
+                 <input class="chance" type="text" placeholder="中国">
                  <div class="chance_1">
                     <span> 省份</span>
                      <div class="city">
-                         <div class="Beijing"><img src="image/6.png">北京市</div>
+                         <div class="Beijing"><img src="image/99.png"><span>北京市</span></div>
                          <p>天津市</p>
                          <p>河北省</p>
                          <p>陕西省</p>
@@ -85,7 +89,7 @@
 
                      </div>
                  </div>
-                 <div class="chance">城市</div>
+                 <input class="chance" type="text" placeholder="城市">
                  <div class="chance_4">搜索</div>
                  </div>
              </div>
@@ -201,12 +205,15 @@
 
            </div>
             <div class="new_right">
-                <div class="div1">姓名:</div>
-                <div class="div2">年龄:</div>
-                <div class="div3">联系方式:</div>
-                <div class="div4">联系地址:</div>
-                <div class="div5">请简述你的梦想生活:</div>
-                <div class="div6">提交申请</div>
+                <input class="div1" type="text" placeholder="姓名:">
+                <input class="div2" type="text" placeholder="年龄:">
+                <input class="div3" type="text" placeholder="联系方式：">
+                <input class="div4" type="text" placeholder="联系地址：">
+                <!--<textarea id="dream" placeholder="请简单描述您梦想的生活:">-->
+
+                <!--</textarea>-->
+                <textarea id="div5" placeholder="请简单描述您梦想的生活："></textarea>
+                <button type="button" value="">提交申请</button>
             </div>
         </div>
         <div class="re_vol">
@@ -214,13 +221,30 @@
             <p class="line"></p>
             <p class="somee">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有邀请<br>
                 那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
-            <div class="tijiao">someone@email.com<span>提交</span></div>
-            <div class="last_img">
-                <img src="image/2.png">
-                <img src="image/3.png">
-                <img src="image/4.png">
-                <img src="image/5.png">
+            <div class="combun">
+                <form>
+                    <input class="tijiao" placeholder="someone@email.com" >
+                    <button value="" type="button">提交</button>
+                </form>
             </div>
+            <ul>
+                <li>
+                    <a href="#"></a>
+                    <img src="image/2.png">
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <img src="image/3.png">
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <img src="image/4.png">
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <img src="image/5.png">
+                </li>
+            </ul>
         </div>
     </article>
     <footer>
