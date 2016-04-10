@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<!--<script type="text/javascript">-->
+    <!--var a = ['ant','Bug','cat','Dof'];-->
+    <!--a.sort();-->
+<!--//    alert(a);-->
+    <!--a.sort(function(s,t){-->
+        <!--var a = s.toLowerCase();-->
+        <!--var b = s.toLowerCase();-->
+        <!--if(a>b) return -1;-->
+        <!--if(a<b) return 1;-->
+        <!--return 0;-->
+        <!--alert(a);-->
+    <!--})-->
+<!--//    alert(a);-->
+<!--</script>-->
+
+    <h3>污染城市列表</h3>
+    <ul id="aqi-list">
+        <!--
+            <li>第一名：福州（样例）10</li>
+            <li>第二名：福州（样例）10</li>
+        -->
+    </ul>
+    <script type="text/javascript">
+        var aqiData = [
+                ["北京" ,90],
+                ["上海" ,50],
+                ["福州" ,10],
+                ["广州" ,50],
+                ["成都" ,90],
+                ["西安" ,100]
+        ];
+        (function(){
+//
+//                    在注释下方编写代码
+//            遍历读取aqiData中各个城市的数据
+//            将空气指数大于60的城市显示到aqi-list中的列表中
+
+//     实用filter()方法：返回符合一定条件的函数
+            var someDate = aqiData.filter(
+                    function(item){
+                        return (item[1] >60);
+                    }
+            );
+//给筛选出来的城市排序
+            someDate.sort(function(a,b){
+                return b[1]-a[1];
+            })  ;
+//输E出结果
+            var aqi = document.getElementById('aqi-list');
+
+           for(var i=0;i < someDate.length;i++){
+               aqi.innerHTML+='<li>第'+(i+1)+'名:'+someDate[i][0]+'（样例）,'+someDate[i][1]+'</li>';
+           }
+        })();
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
